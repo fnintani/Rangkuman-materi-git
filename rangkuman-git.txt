@@ -24,3 +24,8 @@ $ git branch --all: digunakan untuk melihat semua branch publik
 $ git branch nama_branch: digunakan untuk membuat branch baru
 $ git checkout nama_branch: digunakan untuk berpindah branch
 $ git branch -d nama_branch: untuk menghapus branch
+
+C. Materi GUI
+
+GUI adalah software yang digunakan untuk mengoperasikan git. GUI mempermudah user untuk mengoperasikan git karena adanya tampilan secara visual. Salah satu GUI client adalah sourcetree. Untuk memudahkan saat terjadinya merge conflict dapat juga menggunakan tool bernama DiffMerge yang dapat menampilkan secara visual perbandingan file yang mengalami konflik.
+
