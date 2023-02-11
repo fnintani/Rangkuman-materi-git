@@ -4,23 +4,23 @@ A. Materi Fundamental
 
 GIT adalah sistem pengontrol sistem (Version Control System) untuk mengelola source code program pada saat menjalankan proyek pengembangan software
 
-Perintah-perintah dasar/fundamental git adalah sebagai berikut
-
+Perintah-perintah dasar/fundamental git adalah sebagai berikut:
 $ git config = digunakan saat ingin melakukan konfigurasi user beserta email. Perintah ini juga menampilkan informasi konfigurasi pada git
-
 $ git init = digunakan saat ingin menginisiasi sebuah folder sebagai repository
-
 $ git status = digunakan untuk melacak branch, commit, dan tracked/untracked files 
-
 $ git add = digunakan saat ingin memasukkan file pada staging area  dan siap untuk di-commit
-
 $ git commit = digunakan saat ingin melakukan commit terhadap file yang sudah masuk staging area
-
 $ git clone = digunakan untuk melakukan copy dari repository remote kepada repository lokal
-
 $ git remote = digunakan untuk melihat daftar remote pada repository
-
 $ git push = digunakan untuk mengirim perubahan file setelah di commit ke remote repository.
-
 $ git pull = digunakan untuk mengambil commit terbaru dari sebuah repository dan secara otomatis melakukan merge dengan branch yang aktif
 
+B. Materi branch
+
+Branch adalah cabang dari repo yang bisa digunakan untuk memanajemen pengembangan sistem. Contohnya untuk penambahan fitur
+
+$ git branch: digunakan untuk melihat semua branch lokal yang sudah dibuat sebelumnya
+$ git branch --all: digunakan untuk melihat semua branch publik
+$ git branch nama_branch: digunakan untuk membuat branch baru
+$ git checkout nama_branch: digunakan untuk berpindah branch
+$ git branch -d nama_branch: untuk menghapus branch
